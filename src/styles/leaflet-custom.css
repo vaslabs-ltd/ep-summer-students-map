@@ -1,0 +1,50 @@
+.leaflet-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-pin,
+.custom-cluster {
+  background: transparent;
+  border: 0;
+}
+
+.custom-pin span {
+  position: relative;
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #0053a1;
+  border: 3px solid white;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 8px 18px rgba(0, 83, 161, 0.35);
+}
+
+.custom-pin span::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border-radius: 999px;
+  background: white;
+}
+
+.custom-cluster span {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 3px solid white;
+  border-radius: 999px;
+  background: #0053a1;
+  color: white;
+  font-weight: 900;
+  box-shadow: 0 8px 18px rgba(0, 83, 161, 0.35);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 18px;
+}
+
+.leaflet-popup-content {
+  margin: 18px;
+}
