@@ -1,7 +1,13 @@
+import cernLogo from "../../assets/cern-logo.svg";
+
 export default function Logo() {
   return (
-    <div className="grid h-12 w-12 place-items-center border-[3px] border-cern-blue text-xl font-black text-cern-dark">
-      EP
-    </div>
+    <img
+      src={cernLogo}
+      alt="CERN"
+      width={80}
+      height={80}
+      className="w-20 h-auto"
+    />
   );
 }

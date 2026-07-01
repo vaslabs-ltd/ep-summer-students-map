@@ -16,11 +16,6 @@ export default function Header() {
           </div>
         </div>
 
-        <nav className="hidden items-center gap-6 text-sm font-bold md:flex">
-          <a href="#map" className="hover:text-cern-blue">Map</a>
-          <a href="#students" className="hover:text-cern-blue">Students</a>
-          <a href="#data" className="hover:text-cern-blue">Data</a>
-        </nav>
       </div>
     </header>
   );

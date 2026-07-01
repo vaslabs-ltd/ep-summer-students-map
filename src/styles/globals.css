@@ -1,9 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #071b4a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.cern-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  color: white;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+}
+
+.cern-toolbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cern-toolbar a:hover {
+  text-decoration: underline;
+}
+
+.cern-toolbar div {
+  display: flex;
+  gap: 20px;
 }
 
 .stat-card {
